@@ -43,9 +43,22 @@ public class ProductoDAO {
                 lista.add(p);
             }
         } catch (SQLException sqle) {
-            
+            System.out.println(sqle);
         }
         return lista;
+    }
+    
+    public void actualizarProducto(Producto p){
+        String query = "UPDATE producto SET "
+                + "stock = ? "
+                + "WHERE codProducto = ?";
+        try {
+            PreparedStatement ps = con.getConecction().prepareStatement(query);
+            ps.setInt(1, p.getStock());
+            ps.setString(2, p.getCodProducto());
+        } catch (SQLException sqle){
+            System.out.println(sqle);
+        }
     }
 }
 
