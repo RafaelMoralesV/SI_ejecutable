@@ -1,11 +1,22 @@
+org/ejecutable/controlador/ProductoDAO.java
+ org.ejecutable.controlador.ProductoDAO
 org/ejecutable/controlador/Connector.java
  org.ejecutable.controlador.Connector
 org/ejecutable/vista/AgregarProveedor.java
  org.ejecutable.vista.AgregarProveedor
  org.ejecutable.vista.AgregarProveedor$1
+ org.ejecutable.vista.AgregarProveedor$2
 org/ejecutable/controlador/ProveedorDAO.java
  org.ejecutable.controlador.ProveedorDAO
+org/ejecutable/vista/AgregarProducto.java
+ org.ejecutable.vista.AgregarProducto
+ org.ejecutable.vista.AgregarProducto$1
+ org.ejecutable.vista.AgregarProducto$2
 org/ejecutable/vista/Main.java
  org.ejecutable.vista.Main
  org.ejecutable.vista.Main$1
  org.ejecutable.vista.Main$2
+ org.ejecutable.vista.Main$3
+ org.ejecutable.vista.Main$4
+org/ejecutable/modelo/Producto.java
+ org.ejecutable.modelo.Producto

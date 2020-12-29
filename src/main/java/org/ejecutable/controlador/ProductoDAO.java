@@ -23,7 +23,7 @@ public class ProductoDAO {
     
     private static Connector con = new Connector();
     
-    public List<Producto> enlistar(){
+    public static List<Producto> enlistar(){
         List<Producto> lista = new ArrayList<>();
         String query = "SELECT * FROM producto";
         
@@ -48,7 +48,7 @@ public class ProductoDAO {
         return lista;
     }
     
-    public void actualizarProducto(Producto p){
+    public static void actualizarProducto(Producto p){
         String query = "UPDATE producto SET "
                 + "stock = ? "
                 + "WHERE codProducto = ?";
