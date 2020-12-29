@@ -39,6 +39,12 @@ public class AgregarProveedor extends javax.swing.JInternalFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
 
+        inNombre.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inNombreActionPerformed(evt);
+            }
+        });
+
         jButton1.setText("Aceptar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,6 +117,10 @@ public class AgregarProveedor extends javax.swing.JInternalFrame {
                                         inDir.getText(),
                                         inTel.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void inNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inNombreActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_inNombreActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
