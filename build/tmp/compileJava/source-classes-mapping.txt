@@ -1,0 +1,3 @@
+org/ejecutable/vista/Main.java
+ org.ejecutable.vista.Main
+ org.ejecutable.vista.Main$1
